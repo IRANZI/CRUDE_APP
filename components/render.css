@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #fff;
+  }
+  
+  .container{
+    padding: 10px;
+    
+    max-width:700px;
+    margin: 50px auto;
+  }
+  
+  .btn{
+    border: none;
+    padding: 7px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-add{
+    background: #194007;
+    color:white;
+   
+  }
+  
+  .addContainer{
+    position: absolute;
+    background-color:rgba(194, 200, 201, 0.8);
+   left: 0;
+   right: 0;
+   bottom: 0;
+   top:0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  .addContainer form{
+    width: 420px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    box-shadow:5px 5px 10px rgb(0,0,0,0.2) ;
+    border-radius:5px ;
+  }
+  
+  .addContainer  form input{
+    font-size: 20px;
+    padding: 15px;
+    margin-top:5px ;
+    margin-bottom: 10px;
+  
+  
+  }
+  
+  .addContainer  form label{
+    font-size: 18px;
+    
+  }
+  
+  .addContainer  form  button{
+    background-color: royalblue;
+    color: #fff;
+    font-weight:500 ;
+    margin-top: 10px;
+  }
+  
+  .addContainer form .close-btn{
+  margin-left: auto;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+   /* background-color: red;  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  }
+  
+  .tableContainer{
+    margin-top: 50px;
+    
+    
+  }
+  .tableContainer table{
+    
+    box-shadow: 5px 5px 10px rgb(0, 0, 0,0.2);
+    border-radius: 15px;
+  }
+  .tableContainer table thead tr{
+    background-color:white;
+    
+  }
+  
+  .tableContainer table tbody tr{
+    border:  1px solid white;
+  }
+  
+  
+  .tableContainer table thead tr th,
+  .tableContainer table tbody tr td{
+  min-width: 200px;
+  padding: 7px;
+  text-align: center;
+  
+  
+  }
+  
+  .tableContainer table tbody tr td{
+    border: 1px solid #c9c5c2;
+   
+  }
+  .rendered-data{
+    position: absolute;
+    top: 280px;
+    left: 500px;
+  }
+   
+  
